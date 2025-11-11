@@ -1,0 +1,21 @@
+{
+  "name": "dating-platform",
+  "version": "1.0.0",
+  "description": "同城优质交友平台 - Vercel部署版本",
+  "main": "1.html",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'No build process needed for static site'",
+    "start": "vercel dev"
+  },
+  "keywords": ["dating", "platform", "vercel", "static"],
+  "author": "Dating Platform",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.x"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@vercel/node": "^2.0.0"
+  }
+}
